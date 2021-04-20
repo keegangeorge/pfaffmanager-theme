@@ -1,9 +1,22 @@
 {
   "name": "Pfaffmanager Theme",
-  "about_url": null,
+  "author": "Keegan George",
+  "about_url": "https://github.com/keegangeorge/pfaffmanager-theme",
   "license_url": null,
   "assets": {
   },
   "color_schemes": {
+    "Pfaffmanager": {
+      "primary": "5b5b5b",
+      "secondary": "ffffff",
+      "tertiary": "00b7f5",
+      "quaternary": "00b7f5",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    }
   }
 }

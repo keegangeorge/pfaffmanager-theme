@@ -1,0 +1,34 @@
+table.topic-list {
+    margin-top: 1rem;
+    border-radius: var(--global-border-radius);
+    background: #eef1f4;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1);
+    thead {
+        text-transform: uppercase;
+        tr th {
+            font-weight: 400;
+            font-size: 0.9rem;
+            kerning: 50px;
+            padding: 1rem;
+
+            &:first-child button svg {
+                display: none;
+            }
+        }
+    }
+    
+    tbody {
+        border-top-width: 1.5px;
+        background: white;
+
+        tr:hover {
+            background: #f6f9fb;
+            background: var(--highlight-low);
+        }
+
+        tr:last-child {
+                border-bottom: none;
+                border: none;
+            }
+        }
+}

@@ -1,0 +1,27 @@
+  .search-context a {
+    background: var(--tertiary-low);
+    font-weight: 900;
+    font-variant: small-caps;
+    padding: 0.15rem 1rem;
+    border-radius: var(--global-border-radius);
+    transition: background-color 0.25s ease, border 0.25s ease;
+    border: 2px solid transparent;
+    &:focus {
+      border-color: var(--tertiary);
+    }
+    &:hover {
+      background-color: var(--tertiary);
+      color: var(--tertiary-low);
+    }
+  }
+  
+  .results {
+    border-top: 1px solid #e6ebf2;
+    .search-link {
+      padding: 0.25rem;
+      background: #f7fafc;
+      margin: 0.8rem 0rem;
+      border-radius: var(--global-border-radius);
+    }
+  }
+  
