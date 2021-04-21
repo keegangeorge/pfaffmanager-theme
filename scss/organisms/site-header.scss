@@ -10,3 +10,16 @@
 
     }
 }
+
+.headerLink a {
+     // TODO remove important flag after removing style from plugin:
+    padding: 0.5rem 1rem !important; 
+    color: var(--primary) !important;
+    background: var(--primary-low);
+    border-radius: 9999px;
+    transition: color 0.25s ease, background-color 0.25s ease;
+    &:hover {
+        color: var(--tertiary) !important;
+        background: var(--tertiary-low);
+    }
+}

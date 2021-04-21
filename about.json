@@ -3,6 +3,7 @@
   "author": "Keegan George",
   "about_url": "https://github.com/keegangeorge/pfaffmanager-theme",
   "license_url": null,
+  "component": true,
   "assets": {
   },
   "color_schemes": {
@@ -13,7 +14,7 @@
       "quaternary": "00b7f5",
       "header_background": "ffffff",
       "header_primary": "333333",
-      "highlight": "ffff4d",
+      "highlight": "ebf5ff",
       "danger": "e45735",
       "success": "009900",
       "love": "fa6c8d"

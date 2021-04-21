@@ -1,0 +1,39 @@
+.pfaffmanager {
+    margin-top: 1rem;
+    .server-heading {
+        background: var(--primary-low);
+        border-radius: var(--global-border-radius);
+        padding: 1rem;
+        a, svg {
+            color: var(--tertiary-darkened);
+        }
+    }
+    form {
+        background-color: var(--primary-low);
+        padding: 1rem;
+        border-radius: var(--global-border-radius);
+
+    }
+    .pull-right {
+        margin-top: 2rem;
+    }
+    .server-header, .return {
+        background: var(--primary-low);
+        padding: 0.5rem 0.8rem;
+        border-radius: var(--global-border-radius);
+        transition: background-color 0.25s ease;
+        color: var(--primary);
+
+        a {
+            color: var(--primary);
+        }
+        &:hover {
+            background: var(--primary-medium);
+            color: white;
+            a {
+                color: white;
+            }
+
+        }
+    }
+}

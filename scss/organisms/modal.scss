@@ -1,0 +1,12 @@
+.modal {
+  .modal-inner-container {
+    background-color: var(--primary-low);
+    box-shadow: var(--primary-box-shadow);
+    border-radius: var(--global-border-radius);
+    border: none;
+    .modal-header {
+      border-top-left-radius: var(--global-border-radius);
+      border-top-right-radius: var(--global-border-radius);
+    }
+  }
+}

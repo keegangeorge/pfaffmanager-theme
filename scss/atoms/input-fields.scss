@@ -1,17 +1,35 @@
-input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .search-menu input[type="text"], textarea {
-    border: 1px solid #e2e8f0;
-    border-radius: var(--global-border-radius);
-    padding: 0.5rem 1rem;
-    color: #4a5568;
-    box-shadow: inset 0 1px 2px rgba(31,45,61,.075);
-    -webkit-appearance: none;
-    -moz-appearance: none; 
-    appearance: none;
-    vertical-align: middle;
-    &:focus, .is-expanded {
-      border-color: var(--tertiary-medium);
-      outline: 0;
-      box-shadow: inset 0 1px 2px rgba(31,45,61,.075),0 0 20px rgba($tertiary-medium, 0.1);
-    } 
-
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.search-menu input[type="text"],
+textarea,
+.select-kit.combo-box .select-kit-header,
+.choices {
+  border: 1px solid #e2e8f0;
+  border-radius: var(--global-border-radius);
+  padding: 0.5rem 1rem;
+  color: #4a5568;
+  box-shadow: inset 0 1px 2px rgba(31, 45, 61, 0.075);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  vertical-align: middle;
+  &:focus,
+  .is-expanded {
+    border-color: var(--tertiary-medium);
+    outline: 0;
+    box-shadow: inset 0 1px 2px rgba(31, 45, 61, 0.075),
+      0 0 20px rgba($tertiary-medium, 0.1);
+  }
 }

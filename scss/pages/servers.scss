@@ -1,0 +1,14 @@
+.pfaffmanager-index {
+    p a {
+        background-color: var(--primary-low);
+        color: var(--primary);
+        padding: 0.5rem;
+        border-radius: var(--global-border-radius);
+        transition: color 0.25s ease;
+
+        &:hover {
+            background-color: var(--primary-medium);
+            color: white;
+        }
+    }
+}
